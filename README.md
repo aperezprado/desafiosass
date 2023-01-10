@@ -1,4 +1,4 @@
-# Bootstrap Sass
+# Desafío Sass
 
 Modificación de valores de Bootstrap Sass para personalización de componentes
 
