@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+$font-family-base: 'Meow Script', cursive;
+
+$primary: chocolate;
+$secondary: #0d6efd;
+$success: #6610f2;
+$info: #6f42c1;
+$warning: #fd7e14;
+$danger: #d63384;
+$light:rgb(226, 225, 225);
+$dark: black;
+$pink:rgb(203,105,153);
+$white:white;
+
+$theme-colors:(
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark,
+    "pink":$pink,
+);
+    
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.new-card {
+    @extend .card;
+    font-size: 1.5em;
+    padding: .5em;
+}
+.new-btn{
+    @extend .btn;
+    font-size: 1em;
+    &:hover{
+        background-color: $secondary;
+    }
+}
