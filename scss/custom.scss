@@ -36,6 +36,6 @@ $theme-colors:(
     @extend .btn;
     font-size: 1em;
     &:hover{
-        background-color: $secondary;
+        background-color: $secondary !important;
     }
 }
